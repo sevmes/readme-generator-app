@@ -66,8 +66,7 @@ def get_code_file_extensions(directory):
     print(f"Code extensions found : {response.text}")
 
     return_value = response.text.split(",")
-    if "md" in return_value:
-        return_value.remove("md")
+    
     return return_value
 
 
