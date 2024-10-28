@@ -45,7 +45,7 @@ const App = () => {
     }
 
     const newSocket = new WebSocket(
-      "wss://8000-workstation-lp10lyw7.cluster-5bedb2o55nhusvppd7wbvrifho.cloudworkstations.dev/ws"
+      "ws://localhost:8000/ws"
     );
 
     newSocket.onopen = () => {
